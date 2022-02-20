@@ -5,7 +5,7 @@ str(credit_card)
 #converting class to factor variable
 credit_card$Class <- factor(credit_card$Class, levels = c(0,1))
 #summary of dataset
-summary(credit_card)
+summary(credit_card) 
 #counting the missing values   
 sum(is.na(credit_card))  
 #-----Calculating fraud and legit transactions in data set-----
