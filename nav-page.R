@@ -8,7 +8,7 @@ div(id = "nav_page",
       )
     })
   ),
-   
+  
   br(),
   actionButton("prevBtn", "< Previous"),
   actionButton("nextBtn", "Next >")   
