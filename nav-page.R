@@ -1,5 +1,5 @@
 div(id = "nav_page", 
-  hidden(  
+  hidden( 
     lapply(seq(NUM_PAGES), function(i) {
       div( 
         class = "page",
