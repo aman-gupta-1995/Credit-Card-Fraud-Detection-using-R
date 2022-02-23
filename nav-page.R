@@ -1,4 +1,4 @@
-div(id = "nav_page", 
+div(id = "nav_page",
   hidden( 
     lapply(seq(NUM_PAGES), function(i) {
       div( 
