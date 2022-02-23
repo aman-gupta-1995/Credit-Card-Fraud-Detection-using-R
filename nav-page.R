@@ -1,6 +1,6 @@
 div(id = "nav_page",
   hidden(
-    lapply(seq(NUM_PAGES), function(i) {
+    lapply(seq(NUM_PAGES), function(i) { 
       div( 
         class = "page",
         id = paste0("step", i),
