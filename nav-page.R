@@ -14,4 +14,3 @@ div(id = "nav_page",
   actionButton("nextBtn", "Next >")   
 )  
   
-
