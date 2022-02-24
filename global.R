@@ -22,7 +22,7 @@ colnames(kaggle_data) <- stringi::stri_trans_tolower(colnames(kaggle_data))
 
 rows <- nrow(kaggle_data)
 kaggle_data$id <- 1:rows
-
+ 
 #Set the number of pages on the model building tab
 NUM_PAGES <- 3
  
