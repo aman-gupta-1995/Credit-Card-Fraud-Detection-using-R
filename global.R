@@ -25,3 +25,4 @@ kaggle_data$id <- 1:rows
 
 #Set the number of pages on the model building tab
 NUM_PAGES <- 3
+ 
