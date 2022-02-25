@@ -5,7 +5,7 @@ div(
     tags$ul(       
       tags$li("Upload or choose a dataset"),         
       tags$li("Set the Validation settings"),     
-      tags$li("Design the prediction.")  
+      tags$li("Design the prediction.") 
     ) 
   ),
   h3("Let's start by choosing a dataset"),
