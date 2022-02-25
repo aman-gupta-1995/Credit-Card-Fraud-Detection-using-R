@@ -1,5 +1,5 @@
 div( 
-  div(id = "welcome-text",
+  div(id = "welcome-text", 
     h2("Welcome to the model builder"),  
     p("You can create a model in 3 steps"), 
     tags$ul(    
