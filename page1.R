@@ -6,7 +6,7 @@ div(
       tags$li("Upload or choose a dataset"),   
       tags$li("Set the Validation settings"),    
       tags$li("Design the prediction.") 
-    )
+    ) 
   ),
   h3("Let's start by choosing a dataset"),
   p("Either use the", tags$a(href = "https://www.kaggle.com/dalpozz/creditcardfraud", "Credit Card Fraud Detection"), "dataset from Kaggle or upload your own."),
