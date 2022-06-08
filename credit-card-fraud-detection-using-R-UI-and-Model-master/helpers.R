@@ -26,7 +26,7 @@ withBusyIndicatorUI <- function(button) {
               span(class = "btn-err-msg")
           ) 
       )
-    )
+    ) 
   )
 }
 
