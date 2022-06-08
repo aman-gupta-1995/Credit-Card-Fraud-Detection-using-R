@@ -12,7 +12,7 @@ withBusyIndicatorUI <- function(button) {
   div(
     `data-for-btn` = id,
     button, 
-    span(
+    span( 
       class = "btn-loading-container",
       hidden(
         img(src = "ajax-loader-bar.gif", class = "btn-loading-indicator"),
