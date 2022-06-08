@@ -76,6 +76,6 @@ color: green;
 }
 .btn-err {
 margin-top: 10px;
-color: red;
+color: red; 
 }
 "
