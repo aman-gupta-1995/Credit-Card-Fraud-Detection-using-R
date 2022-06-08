@@ -3,7 +3,7 @@ credit_card <- read.csv('C:\\Users\\Vineeta\\Desktop\\vlad-credit-card-fraud-det
 #observing the dataset
 str(credit_card)
 #converting class to factor variable
-credit_card$Class <- factor(credit_card$Class, levels = c(0,1))
+credit_card$Class <- factor(credit_card$Class, levels = c(0,1)) 
 #summary of dataset 
 summary(credit_card)
 #counting the missing values
