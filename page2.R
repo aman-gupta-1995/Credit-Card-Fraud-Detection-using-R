@@ -2,7 +2,7 @@ div(
   h3("Set the",  strong("train"), "and", strong("test"), "sample sizes"),
   wellPanel(
     fluidRow(
-      column(4,
+      column(4, 
              verticalLayout(
                selectInput("slt_method", label = "Select sampling method",
                            choices = c("Sample N", "Sample percentage"))
