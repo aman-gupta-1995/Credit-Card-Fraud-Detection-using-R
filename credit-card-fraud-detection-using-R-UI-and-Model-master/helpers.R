@@ -8,7 +8,7 @@
 # for better user experience 
 # Need to use with the corresponding `withBusyIndicator` server function  
 withBusyIndicatorUI <- function(button) { 
-  id <- button[['attribs']][['id']] 
+  id <- button[['attribs']][['id']]  
   div(
     `data-for-btn` = id,
     button,
