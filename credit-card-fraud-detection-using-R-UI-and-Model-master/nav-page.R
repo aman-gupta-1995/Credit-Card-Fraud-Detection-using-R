@@ -5,7 +5,7 @@ div(id = "nav_page",
         class = "page",
         id = paste0("step", i),
         source(file.path("ui", "01-navpage", sprintf("page%i.R", i)),  local = TRUE)$value
-      ) 
+      )  
     })
   ),
   
