@@ -6,7 +6,7 @@
 
 # Set up a button to have an animated loading indicator and a checkmark
 # for better user experience
-# Need to use with the corresponding `withBusyIndicator` server function
+# Need to use with the corresponding `withBusyIndicator` server function 
 withBusyIndicatorUI <- function(button) { 
   id <- button[['attribs']][['id']]
   div(
@@ -43,7 +43,7 @@ withBusyIndicatorServer <- function(buttonId, expr) {
   shinyjs::hide(selector = errEl)
   on.exit({
     shinyjs::enable(buttonId)
-    shinyjs::hide(selector = loadingEl)
+    shinyjs::hide(selector = loadingEl) 
   })
   
   # Try to run the code when the button is clicked and show an error message if
