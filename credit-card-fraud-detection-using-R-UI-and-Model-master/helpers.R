@@ -11,7 +11,7 @@ withBusyIndicatorUI <- function(button) {
   id <- button[['attribs']][['id']]  
   div(
     `data-for-btn` = id,
-    button,
+    button, 
     span(
       class = "btn-loading-container",
       hidden(
