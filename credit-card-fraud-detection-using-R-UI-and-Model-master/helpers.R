@@ -5,7 +5,7 @@
 # =============================================
 
 # Set up a button to have an animated loading indicator and a checkmark
-# for better user experience
+# for better user experience 
 # Need to use with the corresponding `withBusyIndicator` server function 
 withBusyIndicatorUI <- function(button) { 
   id <- button[['attribs']][['id']]
