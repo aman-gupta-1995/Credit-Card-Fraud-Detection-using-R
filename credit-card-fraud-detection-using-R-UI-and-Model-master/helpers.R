@@ -24,7 +24,7 @@ withBusyIndicatorUI <- function(button) {
           div(icon("exclamation-circle"),
               tags$b("Error: "),
               span(class = "btn-err-msg")
-          )
+          ) 
       )
     )
   )
