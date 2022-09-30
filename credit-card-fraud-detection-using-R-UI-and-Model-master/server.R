@@ -4,7 +4,7 @@ create_samples <- function(data, method, ui_value, times = 1) {
     list(
       train <- data %>% sample_fun(ui_value),
       test <- setdiff(data, train)
-    ) 
+    )  
   })
 }
 
