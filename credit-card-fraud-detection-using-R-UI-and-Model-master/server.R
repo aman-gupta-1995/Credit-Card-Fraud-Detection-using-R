@@ -6,7 +6,7 @@ create_samples <- function(data, method, ui_value, times = 1) {
       test <- setdiff(data, train)
     )  
   })
-}
+} 
 
 function(input, output, session) {
   #session$onSessionEnded(stopApp)
