@@ -1,7 +1,7 @@
 div(
   div(id = "welcome-text",
     h2("Welcome to the model builder"),   
-    p("You can create a model in 3 steps"),         
+    p("You can create a model in 3 steps"),          
     tags$ul(          
       tags$li("Upload or choose a dataset"),          
       tags$li("Set the Validation settings"),  
