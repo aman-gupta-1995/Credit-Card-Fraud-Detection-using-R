@@ -3,7 +3,7 @@ create_samples <- function(data, method, ui_value, times = 1) {
   sets <- lapply(1:times, function(x) {
     list(
       train <- data %>% sample_fun(ui_value),
-      test <- setdiff(data, train)
+      test <- setdiff(data, train) 
     )  
   })
 } 
