@@ -26,7 +26,7 @@ predictions <- factor(predictions, levels = c(0,1))
 #install.packages('caret')
 library(caret)
 # confusion matrix is very imp for tree building
-confusionMatrix(data = predictions, reference = credit_card$Class)
+confusionMatrix(data = predictions, reference = credit_card$Class) 
 #----Building the model-----
 library(dplyr)
 set.seed(1)
