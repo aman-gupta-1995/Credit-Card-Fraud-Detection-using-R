@@ -41,7 +41,7 @@ ggplot(data = credit_card, aes(x = V1, y = V2, col = Class))+
 library(caTools)
 set.seed(123)
 data_sample = sample.split(credit_card$Class,SplitRatio = 0.80)
-train_data = subset(credit_card,data_sample==TRUE)
+train_data = subset(credit_card,data_sample==TRUE) 
 test_data = subset(credit_card,data_sample==FALSE)
 dim(train_data)
 dim(test_data)
