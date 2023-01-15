@@ -32,7 +32,7 @@ library(dplyr)
 set.seed(1)
 table(credit_card$Class)
 library(ggplot2)
-ggplot(data = credit_card, aes(x = V1, y = V2, col = Class))+
+ggplot(data = credit_card, aes(x = V1, y = V2, col = Class))+ 
   geom_point()+
   theme_bw()+
   scale_color_manual(values = c('dodgerblue2','red'))
