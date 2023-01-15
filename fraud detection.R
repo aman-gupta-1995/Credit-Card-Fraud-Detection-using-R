@@ -9,7 +9,7 @@ summary(credit_card)
 #counting the missing values    
 sum(is.na(credit_card))  
 #-----Calculating fraud and legit transactions in data set-----
-#get the distribution of fraud and legit data 
+#get the distribution of fraud and legit data  
 table(credit_card$Class)
 #get the percent distribution of fraud and legit data
 prop.table(table(credit_card$Class))
