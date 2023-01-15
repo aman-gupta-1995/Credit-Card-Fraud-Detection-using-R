@@ -24,7 +24,7 @@ pie(table(credit_card$Class), labels, col = c("pink","white"),
 predictions <- rep.int(0, nrow(credit_card))
 predictions <- factor(predictions, levels = c(0,1))
 #install.packages('caret')
-library(caret)
+library(caret) 
 # confusion matrix is very imp for tree building
 confusionMatrix(data = predictions, reference = credit_card$Class) 
 #----Building the model-----
